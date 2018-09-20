@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- head_hwk.html -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<link rel="stylesheet" href="/site.css" />
+<link rel="stylesheet" href="/hwk.css" />
+<script src="/site.js"></script>
+<script src="/hwk.js"></script>
+<script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>$(document).ready(function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); // https://docs.mathjax.org/en/v1.0/typeset.html
+ });
+ </script>
+
+    <title>h01 - Templates and the STL - </title>
+  </head>
+    <body id="page-top">
+      <div id="container" data-role="page">
+      <div data-role="header" class="header">
+ <nav data-role="navbar" data-grid-"d">
+  <ul>
+    <li><a href="https://ucsb-cs32.github.io/">UCSB CS32</a></li>
+    <li><a href="/" class="ui-btn-active">CS32 F18</a></li>
+    <li><a href="https://www.gradescope.com/courses/25342">Gradescope</a></li>
+    <li><a href="/info/office_hours/">Office Hours</a></li>
+  </ul>
+ </nav>
+ <nav data-role="navbar" data-grid-"d">
+  <ul>
+   <li><a href="https://gauchospace.ucsb.edu/courses/course/view.php?id=31406">Gauchospace</a></li>
+   <li><a href="https://piazza.com/ucsb/fall2018/cmpsc32/home">Piazza</a></li>
+   <li><a href="https://github.com/ucsb-cs32-f18/ucsb-cs32-f18.github.io">S18 github</a></li>
+  </ul>
+ </nav>
+ 
+ <nav data-role="navbar" data-grid-"d">
+  <ul class="hwk-nav-bar">
+  
+    <li><a href="/hwk/h00/">h00</a></li>
+  
+    <li><a href="/hwk/h01/">h01</a></li>
+  
+    <li><a href="/hwk/h02/">h02</a></li>
+  
+  </ul>
+ </nav>
+
+</div>
+
+      
+           
+        <div id="content"  class="ui-content">
+        <div class="hwk-header">
+          <div class="hwk-page-header hwk-page-header-template">
+	    <table>
+	      <tr> <td class="page-num">1</td>  </tr>
+	      <tr> <td class="asn-num">h01</td>  </tr>
+	      <tr> <td class="course-qtr">CS32&#160;<span class="insert-qtr">F18</span></td>  </tr>
+	    </table>
+	  </div>
+	  
+	  <table class="hwk-header-table">
+
+	    <tr><th colspan="5" class="hwk-header-name">Name:</th></tr>
+	    <tr><th colspan="5" class="hwk-header-subtext">(as it would appear on official course roster)</th></tr>
+	    <tr>
+	      <th class="hwk-header-umail-label">  Umail address:</th>
+	      <th class="hwk-header-umail-entry"> @umail.ucsb.edu</th>
+	    </tr>
+	    <tr>
+	      <th colspan="2" style="text-align:left; vertical-align:middle; font-size: 8pt !important; font-family:Arial Narrow, sans-serif; line-height:105%;"> Optional: name you wish to be called<br />if different from name above.
+	    </th></tr>
+	    <tr>
+	      <th colspan="2" style="text-align:left; vertical-align:middle; font-size: 8pt !important; font-family:Arial Narrow, sans-serif; line-height: 105%;"> Optional: name of "homework buddy"<br />(leaving this blank signifies "I worked alone"
+	  </th></tr></table>
+
+
+<h1>h01: Templates and the STL</h1>
+
+	  <table class="asn_table">
+	    <tr>
+	      <th class="asn_ready">ready?</th>
+	      <th class="asn_date" >assigned</th>
+	      <th class="asn_date" >due</th>
+	      <th class="asn_date" >points</th>
+	    </tr>
+	    <tr class="ready">
+	      <td class="asn_ready">true</td>
+	      <td class="asn_date" >Tue 10/02 08:00AM</td> 
+	      <td class="asn_date" >Tue 10/09 02:00PM</td>
+	      <td class="pointCount"></td>
+	    </tr>
+	   </table>
+
+  <div style="font-size: 8pt !important; font-family:Arial Narrow, sans-serif; font-style:italic; line-height: 100%;">
+<p>You may collaborate on this homework with AT MOST one person, an optional "homework buddy".
+</p>
+</div>
+
+<p>MAY ONLY BE TURNED IN IN THE LECTURE LISTED ABOVE AS THE DUE DATE,<br /> OR IF APPLICABLE, SUBMITTED ON GRADESCOPE.   There is NO MAKEUP for missed assignments;<br />
+in place of that, we drop the four lowest scores (if you have zeros, those are the four lowest scores).
+</p>
+<hr />
+
+          
+        </div><!-- hwk-header -->  
+          <p><b>Reading: Templates and the STL, PS 8.3, 17, 18</b></p>
+
+<!-- ADJUST NUMBER SO THAT STUFF FITS NICELY ON SECOND PAGE 
+        LARGEST NUMBER THAT FITS; TRADEOFF READABILITY AND COMPACTNESS -->
+
+<div id="pageOneContent" style="font-size:100%; line-height:100%">
+
+  <ol start="1" style="margin-bottom:0px; padding-bottom:0px;">
+
+<li>(10 pts) Fill in the information in the header. The following are required to get the 10 "participation" points.
+    <ul>
+    <li>Filling in your name and umail address.<br /></li>
+    </ul>
+    <p>Also: For paper submission PLEASE submit on ONE SHEET OF PAPER, double-sided if at all possible. If you must submit on two printed sheets write name on BOTH sheets and no staples, paperclips, or folded corners.<br />
+    </p>
+ </li> 
+    
+
+<li>Suppose we have a C++ class called <code>Student</code>. There are many ways one can create a collection <code>Student</code> objects.  Among these: one can use a normal C++ array or an STL <code>vector</code>, and one could create a collection of objects, or of pointers to objects (presumably allocated on the heap.) 
+<ol style="a"> 
+ <li>(2 pts) Write a line of C++ code that declares an array <code>a</code> that can hold 10 objects of type <code>Student</code>.<br /><br /><br /></li>
+ <li>(2 pts) Write a line of C++ code that declares an array <code>b</code> that can hold 10 pointers to objects of type <code>Student</code>.<br /><br /><br /></li>
+ <li>(2 pts) Write a line of C++ code that declares an STL vector <code>c</code> that can hold 10 objects of type <code>Student</code>.<br /><br /><br /></li>
+ <li>(2 pts) Write a line of C++ code that declares an STL vector <code>d</code> that can hold 10 pointers to objects of type <code>Student</code>.<br /><br /><br /></li>
+</ol>
+</li>
+
+
+<li style="margin-bottom:0px; padding-bottom:0px;"> (20 pts) In the previous problem, you were asked to write four different declarations, (a), (b), (c) and (d).  Each of these has "pros" and "cons".  There are also differences among them that we might describe as "neutral", for whether they are a pro/con depends on the context.   For the "pros" and "cons" below, please indicate which of the letters above (a, b, c, d) the statement applies to.   Note that in some cases, you may have to indicate more than one letter.
+
+Circle the letters to which the statement applies.  If you mess up, cross out all the letters and list the letters in the space to the right.
+</li>
+</ol>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Hero or zero?</th>
+        <th>Choices</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Con: Additional <code>#include</code> directives and <code>using</code> statements are required to use this approach.</td>
+        <td>a  b  c  d  </td>
+      </tr>
+      <tr>
+        <td>Pro: The item declared can be expanded beyond 10 items if needed.</td>
+        <td>a  b  c  d </td>
+      </tr>
+      <tr>
+        <td>Pro: You can declare this item without actually creating any Student objects. </td>
+        <td>a  b  c  d </td>
+      </tr>
+      <tr>
+        <td>Con: The class MUST have a default constructor, or this declaration is not permitted. </td>
+        <td>a  b  c  d </td>
+      </tr>
+      <tr>
+        <td>Pro: All space for the item and the Students it contains are co-located in memory—on the stack if the item is declared as a local</td>
+        <td>a  b  c  d </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="font-size:80%; margin-bottom:0px; padding-bottom:0px;">Grading: for each answer, deduct one point if an item should be included and is not, or is included and should not be.</p>
+
+</div>
+<p><!-- id="pageOneContent" --></p>
+
+<div class="pagebreak"></div>
+
+<div id="pageTwoContent" style="font-size:100%;">
+
+  <ol start="4">
+
+<li>(3 pts) In your own words, what is the "problem" for which "templates for functions" is a solution?   I'm looking for a <b>brief</b> description&mdash;a single sentence, or at most 2-3 sentences that get to the <em>central point</em>, a description of the <em>problem</em>, not a detailed description of everything you know about templates, and certainly <em>not</em> a sentence copied, word-for-word, from either textbook.<div style="margin-bottom: 5em;">&nbsp;</div> </li>
+
+<li>(3 pts) The C++ syntax for function templates includes this <code>template &lt;class Item&gt;</code>.    The name <code>Item</code> in the example above is preceeded by the keyword <code>class</code>.  One might infer from that that <code>Item</code> should be the name of some <code>class</code>, e.g. <code>class Student</code>, or <code>class Roster</code>, etc.   But that is not a correct assumption.  Explain why. <b>(BRIEFLY!)</b> <div style="margin-bottom: 4em;">&nbsp;</div> </li>
+
+<li> <p>Let's say you have a function <code><b>int calc</b>(<b>int</b> operand1, <b>int</b> operand2, <b>char</b> op)</code> where <code>op</code> is either '+' or '-'.    Instead of overloading this function for each numerical datatype in C++ (e.g. also defining it for <code>float</code>, <code>double</code>, etc., you want to create a generic function that is far more flexible.  In the space below, define <code>calc</code> as a template function.  If op is neither '+' nor '-', print an error message on <code>cerr</code> and call the system function <code>exit(1);</code> (you may assume that <code>#include&lt;cstdlib&gt;</code> has already been done.)  </p>
+
+<p style="font-size:80%">Note that once we've covered exceptions, that would be a better approach than the <code>cerr/exit</code> technique.</p>
+
+<div style="font-size:100%">Grading:
+ <ul>
+  <li> (2 pts) for correct template function header</li>
+  <li> (2 pts) for correctly handling the error</li>
+  <li> (2 pts) for function body being correct for non-error case.</li>
+</ul>
+</div>
+
+
+</li>
+
+</ol>
+
+</div>
+<p><!-- id="pageTwoContent" --></p>
+
+        </div><!-- content -->
+        <div data-role="footer" class="footer">
+ <nav data-role="navbar" data-grid-"d">
+  <ul>
+   <li><a href="https://github.com/ucsb-cs32-f18/ucsb-cs32-f18.github.io">this site on github</a></li>
+      <li><a href=''>mentor page</a></li>
+   <li><a href='https://github.com/ucsb-cs32-f18/ucsb-cs32-f18.github.io/edit/master/_hwk/h01.md'>edit this page on github</a></li>
+  </ul>
+ </nav>
+</div>
+
+      </div><!-- container -->
+  </body>
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- head_hwk.html -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<link rel="stylesheet" href="/site.css" />
+<link rel="stylesheet" href="/hwk.css" />
+<script src="/site.js"></script>
+<script src="/hwk.js"></script>
+<script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script>$(document).ready(function() {
+     MathJax.Hub.Queue(["Typeset",MathJax.Hub]); // https://docs.mathjax.org/en/v1.0/typeset.html
+ });
+ </script>
+
+    <title>h00 - Linear Search - </title>
+  </head>
+    <body id="page-top">
+      <div id="container" data-role="page">
+      <div data-role="header" class="header">
+ <nav data-role="navbar" data-grid-"d">
+  <ul>
+    <li><a href="https://ucsb-cs32.github.io/">UCSB CS32</a></li>
+    <li><a href="/" class="ui-btn-active">CS32 F18</a></li>
+    <li><a href="https://www.gradescope.com/courses/25342">Gradescope</a></li>
+    <li><a href="/info/office_hours/">Office Hours</a></li>
+  </ul>
+ </nav>
+ <nav data-role="navbar" data-grid-"d">
+  <ul>
+   <li><a href="https://gauchospace.ucsb.edu/courses/course/view.php?id=31406">Gauchospace</a></li>
+   <li><a href="https://piazza.com/ucsb/fall2018/cmpsc32/home">Piazza</a></li>
+   <li><a href="https://github.com/ucsb-cs32-f18/ucsb-cs32-f18.github.io">S18 github</a></li>
+  </ul>
+ </nav>
+ 
+ <nav data-role="navbar" data-grid-"d">
+  <ul class="hwk-nav-bar">
+  
+    <li><a href="/hwk/h00/">h00</a></li>
+  
+    <li><a href="/hwk/h01/">h01</a></li>
+  
+    <li><a href="/hwk/h02/">h02</a></li>
+  
+  </ul>
+ </nav>
+
+</div>
+
+      
+           
+        <div id="content"  class="ui-content">
+        <div class="hwk-header">
+          <div class="hwk-page-header hwk-page-header-template">
+	    <table>
+	      <tr> <td class="page-num">1</td>  </tr>
+	      <tr> <td class="asn-num">h00</td>  </tr>
+	      <tr> <td class="course-qtr">CS32&#160;<span class="insert-qtr">F18</span></td>  </tr>
+	    </table>
+	  </div>
+	  
+	  <table class="hwk-header-table">
+
+	    <tr><th colspan="5" class="hwk-header-name">Name:</th></tr>
+	    <tr><th colspan="5" class="hwk-header-subtext">(as it would appear on official course roster)</th></tr>
+	    <tr>
+	      <th class="hwk-header-umail-label">  Umail address:</th>
+	      <th class="hwk-header-umail-entry"> @umail.ucsb.edu</th>
+	    </tr>
+	    <tr>
+	      <th colspan="2" style="text-align:left; vertical-align:middle; font-size: 8pt !important; font-family:Arial Narrow, sans-serif; line-height:105%;"> Optional: name you wish to be called<br />if different from name above.
+	    </th></tr>
+	    <tr>
+	      <th colspan="2" style="text-align:left; vertical-align:middle; font-size: 8pt !important; font-family:Arial Narrow, sans-serif; line-height: 105%;"> Optional: name of "homework buddy"<br />(leaving this blank signifies "I worked alone"
+	  </th></tr></table>
+
+
+<h1>h00: Linear Search</h1>
+
+	  <table class="asn_table">
+	    <tr>
+	      <th class="asn_ready">ready?</th>
+	      <th class="asn_date" >assigned</th>
+	      <th class="asn_date" >due</th>
+	      <th class="asn_date" >points</th>
+	    </tr>
+	    <tr class="ready">
+	      <td class="asn_ready">true</td>
+	      <td class="asn_date" >Tue 10/02 08:00AM</td> 
+	      <td class="asn_date" >Tue 10/09 02:00PM</td>
+	      <td class="pointCount"></td>
+	    </tr>
+	   </table>
+
+  <div style="font-size: 8pt !important; font-family:Arial Narrow, sans-serif; font-style:italic; line-height: 100%;">
+<p>You may collaborate on this homework with AT MOST one person, an optional "homework buddy".
+</p>
+</div>
+
+<p>MAY ONLY BE TURNED IN IN THE LECTURE LISTED ABOVE AS THE DUE DATE,<br /> OR IF APPLICABLE, SUBMITTED ON GRADESCOPE.   There is NO MAKEUP for missed assignments;<br />
+in place of that, we drop the four lowest scores (if you have zeros, those are the four lowest scores).
+</p>
+<hr />
+
+          
+        </div><!-- hwk-header -->  
+          <style>
+table.circleOptionTable { margin-left: auto; margin-right: auto; text-align:center; width:90%; border: none; margin-top: 2em; margin-bottom:2em;}
+
+table.circleOptionTable * td { text-align:center; padding-left: 1em; padding-right:1em; border: none;}
+</style>
+
+<div style="font-size:90%; padding-top:0px; margin-top:0px;">
+
+  <ol>
+
+<li style="padding-bottom:4em;">
+      <p>(10 pts) Before attending your first discussion section (lab), please ensure that you can access your CSIL / College of Engineering Account. Either visit CSIL (the lab on first floor ocean side of Harold Frank Hall), and try to login, or use an ssh client to see if you can access csil.cs.ucsb.edu.</p>
+
+      <p>If you need help creating or accessing your CoE/CSIL account, visit <a href="https://accounts.engr.ucsb.edu">https://accounts.engr.ucsb.edu</a></p>
+
+      <p>Then, write your College of Engineering account username below. DO NOT WRITE YOUR PASSWORD. DO NOT EVER WRITE YOUR PASSWORD!!</p>
+
+    </li>
+
+</ol>
+
+  <p><b>Course Textbooks</b></p>
+
+  <ul>
+    <li><b>PS9</b>: <i>Problem Solving with C++, 9th Edition </i> by Walter Savitch (used in CS16 - Purple/Blue cover. There is a newer edition available, but I don’t want everyone to buy a new edition if you already have the 9th edition from when you took CS 16).</li>
+    <li><b>DS4</b>: <i>Data Structures and Other Objects Using C++, 4th edition </i> by Michael Main and Walter Savitch (used in CS24 - Brown cover)</li>
+  </ul>
+
+  <p>Both books are required for this course. This homework will only refer to DS4 (the brown book), but future homework assignments may draw on either or both of the two books.</p>
+
+  <p><strong>Reading:</strong> In DS4 read pages 584-594; STOP at p. 594 (pp 594-598 will be covered on H02).</p>
+
+  <p>Also, read the “C++ Feature” box about <code>size_t</code> on p. 100. You only need to read the part in the sans-serif font beside the “C++ Feature” logo, but if you read a few extra lines of the main text, you’ll see better how <code>size_t</code> is used. Since <code>size_t</code> is used in Section 12.1, it’s helpful to review this material from Chapter 3 in case you glossed over it during CS24.</p>
+
+  <p>Then, answer the questions on the back of this homework.</p>
+
+</div>
+
+<div style="font-size:90%">
+
+  <p>Questions about DS4, pages 584-586.</p>
+
+  <ol start="2">
+
+<li>
+(10 pts) Serial search is also called "linearSearch". Suppose you are writing a standalone C++ function called <b>linearSearch</b> that searches through an unsorted C++ builtin array array of int values using this technique. Write the function prototype for this function—ONLY the function protototype. Be sure to include the name and type all the input parameters you would need, and a suitable type for the return value. Assume the function returns the index of the value if found, and -1 if the value is not found. Choose parameter names that make sense and represent good programming style (i.e. clearly document the purpose of the parameters that are being passed in.)
+
+<div style="margin-bottom: 10em;">&nbsp;</div>
+<div class="pagebreak"></div>
+</li>
+
+<li style="padding-bottom:10em;">
+      <p>(10 pts) For this question, please review pp 584-586 and read both sides of the handout (<a href="http://www.cs.ucsb.edu/~richert/cs32/misc/h00-handout.pdf">http://www.cs.ucsb.edu/~richert/cs32/misc/h00-handout.pdf</a>). Then answer this question about the expected number of array accesses for linear search.</p>
+
+      <ul>
+        <li>Suppose there are nine array elements, <code>a[0]</code> through <code>a[8]</code>.</li>
+        <li>Each of the odd elements, <code>a[1]</code>, <code>a[3]</code>, <code>a[5]</code>, and <code>a[7]</code> has a 10% chance (0.1) of being the one searched for.</li>
+        <li>Each of the even elements <code>a[0]</code>, <code>a[2]</code>, <code>a[4]</code>, <code>a[6]</code> and <code>a[8]</code> has a 5% change (0.05) of being the one searched for.</li>
+        <li>With probability 35% (0.35), the element being sought is not found in the array.</li>
+      </ul>
+
+      <p>In this case, what is the expected number of array accesses?</p>
+
+    </li>
+
+
+
+
+
+
+<li> In CMPSC 24, you should have learned about big-Oh analysis, i.e.
+asymptotic worst-case run-time analysis.
+
+<ol>
+<li style="padding-top:0px; margin-top:0px; margin-bottom:0px; padding-bottom:0em;">
+(10 pts) What is the big-O analysis of a find(key) operation on a
+sorted array of <em>n</em> keys, implemented using <em>binary
+search</em>?
+Circle your answer.
+
+Note that log, in the context of big-O, typically means log
+based 2, but since all logs are related by a constant factor,
+i.e. for any value of <em>b</em>, there is a constant <em>C</em> such that <span style="white-space:nowrap"><em>log<sub>2</sub>(x)</em> = <em>C·log<sub>b</sub>(x)</em></span>.
+
+<table class="circleOptionTable">
+<tbody><tr>
+<td> O(1)
+</td>
+<td> O(log n)
+</td>
+<td> O(n)
+</td>
+<td> O(n log n)
+</td>
+<td> O(n<sup>2</sup>)
+</td>
+<td> O(n<sup>2</sup> log n)
+</td>
+<td> O(n<sup>3</sup>)
+</td></tr></tbody></table>
+</li>
+
+<li style="padding-top:0px; margin-top:0px; margin-bottom:0px; padding-bottom:10em;">
+       (10 pts) Explain why this is the running time for binary search. A "formal proof" is not required—just a <em>brief</em> intuitive explanation that shows you understand why this is the running time.
+</li>
+</ol>
+</li>
+</ol>
+
+</div>
+
+        </div><!-- content -->
+        <div data-role="footer" class="footer">
+ <nav data-role="navbar" data-grid-"d">
+  <ul>
+   <li><a href="https://github.com/ucsb-cs32-f18/ucsb-cs32-f18.github.io">this site on github</a></li>
+      <li><a href=''>mentor page</a></li>
+   <li><a href='https://github.com/ucsb-cs32-f18/ucsb-cs32-f18.github.io/edit/master/_hwk/h00.md'>edit this page on github</a></li>
+  </ul>
+ </nav>
+</div>
+
+      </div><!-- container -->
+  </body>
+</html>
