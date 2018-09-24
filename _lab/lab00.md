@@ -13,7 +13,7 @@ Goals
 By the time you have finished this lab, you should have demonstrated
 your ability to:
 
--   Join the Github Organization <https://github.com/ucsb-cs32-s18/>
+-   Join the Github Organization <https://github.com/ucsb-cs32-f18/>
 -   Use some basic Unix commands, and learn about new Unix commands
 -   Create a basic Makefile from scratch
 -   Do some simple C++ programming as review of C++ basics, and as
@@ -34,8 +34,7 @@ account:
 
 -   <https://accounts.engr.ucsb.edu/create>
 
-<strong>You should already know the following from CS16 / CS24. If not,
-alert your TA/instructor immediately:</strong>
+<strong>You should already know the following from CS16 / CS24. If not, alert your TA/instructor immediately:</strong>
 
 -   How to login with your COE/CSIL account
 -   How to use the Linux computers in
@@ -68,14 +67,14 @@ If you are working from your own computer at home or in your dorm, i.e. in not i
 
 ### Step 0b: Adding yourself to our GitHub organization
 
-We will be using github.com in this course. We have created an organization on github.com <https://github.com/ucsb-cs32-s18> where you can create repositories (repos) for your assignments in this course. You may be familiar with GitHub organizations from CS 16 and 24 if you took it with Prof. Mirza. The advantage of creating private repos under that organization is that the course staff (your instructors, TAs and mentors) will be able to see your code and provide you with help, without you having to do anything special.
+We will be using github.com in this course. We have created an organization on github.com <https://github.com/ucsb-cs32-f18> where you can create repositories (repos) for your assignments in this course. You may be familiar with GitHub organizations from CS 16 and 24 if you took it with Prof. Mirza. The advantage of creating private repos under that organization is that the course staff (your instructors, TAs and mentors) will be able to see your code and provide you with help, without you having to do anything special.
 
 To join this organization, you need to do four things.
 
 (1) If you don't already have a github.com account, create one on the "free" plan.
 (2) If you don't already have your @umail.ucsb.edu email address associated with your github.com account, go to "settings", add that email, and confirm that email address.
-(3) Visit <https://ucsb-cs-github-linker.herokuapp.com> and login with your github.com account. Click "Home", find this course, and click the "join course button". That will automatically send you an invitation to join the course organization. There is a link to the invitation for the GitHub organization for this course (<https://github.com/ucsb-cs32-s18>). 
-(4) Click on the invitation link and accept it. You can also go straight to <https://github.com/ucsb-cs32-s18> and accept the invitation there.
+(3) Visit <https://ucsb-cs-github-linker.herokuapp.com> and login with your github.com account. Click "Home", find this course, and click the "join course button". That will automatically send you an invitation to join the course organization. There is a link to the invitation for the GitHub organization for this course (<https://github.com/ucsb-cs32-f18>). 
+(4) Click on the invitation link and accept it. You can also go straight to <https://github.com/ucsb-cs32-f18> and accept the invitation there.
 
 If you are not familiar with git, I highly recommend learning this skill since this will be extremely valuable when collaborating on large software projects. More information on git can be found here: <https://ucsb-cs32.github.io/topics/git/>.
 
@@ -212,11 +211,11 @@ The first thing we should do is edit our Makefile using emacs or vim, or whateve
 
 On the first line of the file, put this, substituting your name (and that of your pair partner(s) if applicable, for YOUR NAME(S) HERE, as appropriate:
 
-    # Makefile for lab00, YOUR NAME(S) HERE, CS32, S18
+    # Makefile for lab00, YOUR NAME(S) HERE, CS32, F18
 
 Then, leave a blank line, and add the following two lines shown here, so that you end up with this as the first four lines of your Makefile:
 
-    # Makefile for lab00, YOUR NAME(S) HERE, CS32, S18
+    # Makefile for lab00, YOUR NAME(S) HERE, CS32, F18
 
     CXX=clang++
     # CXX=g++
@@ -279,7 +278,7 @@ Two important things:
 
 <!-- -->
 
-    # Makefile for lab00, YOUR NAME(S) HERE, CS32, S18
+    # Makefile for lab00, YOUR NAME(S) HERE, CS32, F18
 
     CXX=clang++
     # CXX=g++
@@ -358,7 +357,7 @@ output. Do that now. Notice it is different from before:
 \(5) Now, edit your helloWorld.cpp program, changing the program by
 adding a comment with your name(s) between the first two comments:
 
-    // helloWorld.cpp  R. Wang for UCSB CS32 S18
+    // helloWorld.cpp  R. Wang for UCSB CS32 F18
     // Edited by: YOUR NAME(S) HERE
     // minimal Hello World! program for testing Makefiles
 
@@ -786,4 +785,4 @@ Acknowledgements
 ================
 
 Some material in this lab is based on work originally written by Mike
-Costanzo and edited by Phill Conrad, and Richert Wang (S18). Other parts are original work of Phill Conrad.
+Costanzo and edited by Phill Conrad, and Richert Wang (F18). Other parts are original work of Phill Conrad.
