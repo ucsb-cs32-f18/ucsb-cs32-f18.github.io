@@ -8,17 +8,16 @@ ready: true
 
 # Instructor
 Richert Wang (HFH 1151)
-* TBD
+* Tuesdays 3:30 - 4:30pm
+* Fridays 1 - 2pm
+* or by appointment
 
 # TAs
-Sanjana Sahayaraj 
-* TBD
+Sanjana Sahayaraj (Trailer 936 Room 103/104)
+* Thursdays 12 - 2pm
 
-Yuke Wang
-* TBD
-
-Aiwen Xi
-* TBD
+Aiwen Xi (Trailer 936 Room 103/104)
+* Wednesdays 9 - 11am
 
 # Mentors
 Carly Larsson
