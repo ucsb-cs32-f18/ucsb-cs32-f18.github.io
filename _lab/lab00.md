@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab00	
-ready: false
+ready: true
 desc: "Review of C++ basics, Makefiles, Gradescope"
 assigned: 2018-10-01 08:00:00.00-7
 due: 2018-10-07 23:59:00.00-7
