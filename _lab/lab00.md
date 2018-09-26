@@ -36,7 +36,7 @@ account:
 
 <strong>You should already know the following from CS16 / CS24. If not, alert your TA/instructor immediately:</strong>
 
--   How to login with your COE/CSIL account
+-   How to login with your CoE/CSIL account
 -   How to use the Linux computers in
     -   <strong>Phelps 3525</strong> (where your discussion sections are scheduled), and
     -   <strong>CSIL</strong>, the Computer Science Instructional Lab on the first floor of Harold Frank Hall (accessed through an outside door on the side facing the ocean.), which have an identical setup.
@@ -45,13 +45,13 @@ account:
 
 It MIGHT, SOMETIMES, be possible to do SOME of the course work on your own computer that is connected to the Internet. In lecture, I will give VERY brief demonstrations of how to access the CSIL machines over the internet using Windows, Mac, and Linux.
 
-But for some of the assignment, using CSIL is required. You might be able to access CSIL over the internet from your own machine rather than coming to CSIl in person.
+But for some of the assignment, using CSIL is required. You might be able to access CSIL over the internet from your own machine rather than coming to CSIL in person.
 
 At the links below, we a "best effort" introduction to "how to do work
 on your own computer", and then YOU ARE ON YOUR OWN.
 
 -   There is no guarantee that this will always work.
--   There are two many different OS versions, flavors, configurations, etc .for us to know the ins and outs of every single one.
+-   There are two many different OS versions, flavors, configurations, etc.for us to know the ins and outs of every single one.
 -   If/when you run into difficulties there, WE CANNOT BE YOUR TECH SUPPORT. If you have a simple question and we know the answer, we'll tell you, but if you don't, our answer will be: "ok, then do your work in CSIL until you figure it out."
 
 So, please be aware:
@@ -85,7 +85,7 @@ If there are any issues or questions, please post them on Piazza and include any
 
 ### Step 0c: Creating your Gradescope account
 
-I have manually added everyone (using your @umail.ucsb.edu accounts) currently enrolled in the course to the Gradescope system. You should have received an email from the Gradescope system asking you to create a password. Once you follow the instructions to set your password, you should have access to the autograding system. You should see "CMPSC 32" in your Spring 2018 Courses.
+I have manually added everyone (using your @umail.ucsb.edu accounts) currently enrolled in the course to the Gradescope system. You should have received an email from the Gradescope system asking you to create a password. Once you follow the instructions to set your password, you should have access to the autograding system. You should see "CMPSC 32" in your Fall 2018 Courses.
 
 The lab assignment "Lab00" should appear in your Gradescope dashboard in CMPSC 32. 
 
