@@ -16,7 +16,7 @@ Richert Wang (HFH 1151)
 Sanjana Sahayaraj (Trailer 936 Room 103/104)
 * Thursdays 12 - 2pm
 
-Aiwen Xi (Trailer 936 Room 103/104)
+Aiwen Xu (Trailer 936 Room 103/104)
 * Wednesdays 9 - 11am
 
 # Mentors

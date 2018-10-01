@@ -13,7 +13,7 @@ Basic Facts
 * **Lecture**: TuTh 2:00pm-3:15pm CHEM 1171, ATTENDANCE REQUIRED.
 * **TAs**:  {{site.ta_list_full}} (contact via Piazza)
 * **Lab** (50 minute lab sections): Mondays 12pm, 1pm, 2pm, 3pm - Phelps 3525, ATTENDANCE REQUIRED.                                         
-* **Office Hours**: TBD
+* **Office Hours**: [https://ucsb-cs32-f18.github.io/info/office_hours/](https://ucsb-cs32-f18.github.io/info/office_hours/)
 
 # Required Resources
 
