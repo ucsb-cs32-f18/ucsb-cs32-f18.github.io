@@ -291,4 +291,10 @@ int main() {
 }
 ```
 
+## Big Three (Rule of Three)
+
+* Rule of thumb: If you are implementing your own version of a copy constructor, destructor, or assignment operator, then you should implement all three.
+* Important when manually managing memory on the heap.
+* A good link illustrating the Big Three ... in the context of programming a video game :)
+	* https://www.youtube.com/watch?v=F-7Rpt2D-zo
 
