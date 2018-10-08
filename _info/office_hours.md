@@ -27,7 +27,7 @@ Carly Larsson (CSIL - 1140 HFH)
 * Thursdays 10:30am - 12:30pm
 
 Xinyi Li (CSIL - 1140 HFH)
-* Mondays 5 - 7pm, Thursdays 9:30 - 10:30am
+* Mondays 5 - 6:30pm, Thursdays 9:30 - 10:30am
 
 Arielle Robles (CSIL - 1140 HFH)
 * Mondays 9:30 - 11:30am
