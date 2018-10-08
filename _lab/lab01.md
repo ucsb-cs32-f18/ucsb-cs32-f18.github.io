@@ -3,8 +3,8 @@ layout: lab
 num: lab01	
 ready: true
 desc: "C++ class review, TDD review"
-assigned: 2018-08-08 08:00:00.00-7
-due: 2018-08-14 23:59:00.00-7
+assigned: 2018-10-08 08:00:00.00-7
+due: 2018-10-14 23:59:00.00-7
 ---
 
 # Goals
