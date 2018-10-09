@@ -17,7 +17,7 @@ Sanjana Sahayaraj (Trailer 936 Room 103/104)
 * Thursdays 12 - 2pm
 
 Aiwen Xu (Trailer 936 Room 103/104)
-* Wednesdays 9 - 11am
+* Wednesdays 2:45 - 4:45pm
 
 # Mentors
 
