@@ -32,7 +32,7 @@ Xinyi Li (CSIL - 1140 HFH)
 Arielle Robles (CSIL - 1140 HFH)
 * Mondays 9:30 - 11:30am
 
-Zeyu (Scott) Zhu (CSIL - 1140 HFH)
+Zeyu (Scott) Zhu (3525 Phelps Hall)
 * Mondays 4 - 5pm, Tuesdays 2 - 3pm
 
 
