@@ -21,18 +21,18 @@ Aiwen Xu (Trailer 936 Room 103/104)
 
 # Mentors
 
-<b> Note: Mentors' office hours will take place at CSIL - 1140 HFH until further notice) </b>
+<b> Note: Mentors' office hours will take place at Phelps 3525 </b>
 
-Carly Larsson (CSIL - 1140 HFH)
+Carly Larsson (Phelps 3525)
 * Thursdays 10:30am - 12:30pm
 
-Xinyi Li (CSIL - 1140 HFH)
+Xinyi Li (Phelps 3525)
 * Mondays 5 - 6:30pm, Thursdays 9:30 - 10:30am
 
-Arielle Robles (CSIL - 1140 HFH)
+Arielle Robles (Phelps 3525)
 * Mondays 9:30 - 11:30am
 
-Zeyu (Scott) Zhu (CSIL - 1140 HFH)
+Zeyu (Scott) Zhu (Phelps 3525)
 * Mondays 4 - 5pm, Tuesdays 2 - 3pm
 
 
