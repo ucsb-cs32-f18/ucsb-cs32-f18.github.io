@@ -77,7 +77,6 @@ int main() {
 }
 ```
 
-
 # Namespaces
 * The purpose of a namespace is to avoid <b>naming collisions</b>.
 
