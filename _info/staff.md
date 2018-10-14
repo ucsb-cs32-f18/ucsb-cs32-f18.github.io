@@ -47,7 +47,7 @@ ready: true
 
   <tr>
   <td>
-  <img src="/info/mentorPhotos/arielle.JPG" alt="Arielle" width="150px" style="float: left; margin: 10px 10px 10px 10px;">
+  <img src="/info/mentorPhotos/arielle.jpg" alt="Arielle" width="150px" style="float: left; margin: 10px 10px 10px 10px;">
   <b> Arielle Robles (Tutor) </b>
   <i> "Hi! My name is Arielle Robles (she/her/hers) and I am a fourth year CS student. I transferred to the CS major during my second year, and I joined the undergraduate mentoring program last winter. I am eager to help students be successful in this course and also to answer any questions that may be unrelated to the material as well. During my time at UCSB I studied abroad in Scotland and took courses for my major. I also have had an software engineering internship and can help answer some questions you might have about the interview process and how to find internships! Outside of CS, I enjoy photography, being outdoors, and traveling." </i>
   </td>
