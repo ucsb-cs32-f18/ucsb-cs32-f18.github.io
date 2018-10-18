@@ -14,7 +14,7 @@ Richert Wang (HFH 1151)
 
 # TAs
 Sanjana Sahayaraj (Trailer 936 Room 103/104)
-* Thursdays 12 - 2pm
+* Fridays 9 - 11am
 
 Aiwen Xu (Trailer 936 Room 103/104)
 * Wednesdays 2:45 - 4:45pm
