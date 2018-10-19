@@ -5,6 +5,9 @@ ready: true
 date: 2018-10-18 14:00:00.00-7:00
 ---
 
+Link to Sample Midterm 1 Exam from S18:
+[sample midterm 1](http://cs.ucsb.edu/~richert/cs32/exams/sampleM1.pdf)
+
 ```
 Logistics
 - Bring studentID and writing utensil
