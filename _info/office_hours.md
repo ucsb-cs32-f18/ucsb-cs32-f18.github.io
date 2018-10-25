@@ -33,6 +33,6 @@ Arielle Robles (Phelps 3525)
 * Mondays 9:30 - 11:30am
 
 Zeyu (Scott) Zhu (Phelps 3525)
-* Mondays 4 - 5pm, Tuesdays 2 - 3pm
+* Mondays 4 - 5pm, Friday 3:30 - 4:30pm
 
 
