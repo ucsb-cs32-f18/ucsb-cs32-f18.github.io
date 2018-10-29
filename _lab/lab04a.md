@@ -57,8 +57,10 @@ In this week's lab, you have the following files:
 
 * `WordCount.cpp`
 * `WordCount.h`
+* `tddFuncs.cpp`
+* `tddFuncs.h`
 
-Your job is to modify WordCount.cpp based on the specifications and thoroughly test your code. Do not modify WordCount.h and the given array of vector structure must be used to implement your hash table. No Makefile or test applications are provided for this lab and you must create your own. Even though Gradescope will not run your tests, you must submit your test application(s) to Gradescope.
+Your job is to modify WordCount.cpp based on the specifications and thoroughly test your code. Do not modify WordCount.h and the given array of vector structure must be used to implement your hash table. No Makefile or test applications are provided for this lab and you must create your own. tddFuncs.* are provided for testing your code. Even though Gradescope will not run your tests, you must submit your test application(s) to Gradescope.
 
 ## Some notes about the hash table you will be implementing
 
