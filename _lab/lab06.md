@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab06
-prior_lab: lab02
+prior_lab: lab03
 ready: true
 desc: "Debugging Tools: gdb and valgrind"
 assigned: 2018-11-12 08:00:00.00-7
@@ -83,8 +83,8 @@ Run `memcheck` on your <tt>{{page.prior_lab}}</tt> and ensure that you don't hav
 
 Run each test with --leak-check=full 
 <pre>
-valgrind --leak-check=full ./testStudent
-valgrind --leak-check=full ./testRoster1
+valgrind --leak-check=full ./testStudent00
+valgrind --leak-check=full ./testStudentRoll00
 etc...
 </pre>
 
@@ -177,7 +177,6 @@ Remember to pass in your umail address when running through gdb in order to obta
 ### Question 4 (q4)
 
 <b>q4: </b> How many recursive calls to recursiveFunction are in the backtrace (also called a stack trace) when variable <code> a == 100 </code> in `recursiveFunction`? Put your answer in <code>q4</code>.
-
 
 <b>Hints: </b>
 * Use `backtrace` (abbreviated `bt`), along with conditional breakpoints:  <code>break</code> <em>someplace</em> <code>if </code> <em>condition</em>
